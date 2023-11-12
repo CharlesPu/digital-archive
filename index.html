@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kode is a Premium Bootstrap Admin Template, It's responsive, clean coded and mobile friendly">
+  <meta name="keywords" content="bootstrap, admin, dashboard, flat admin template, responsive," />
+  <title>食品餐饮主体数字档案卡管理系统</title>
+
+  <!-- ========== Css Files ========== -->
+  <link href="css/root.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/pcard/style.css">
+  <link rel="stylesheet" href="css/qrm-pinming.css">
+  <link href="css/component-chosen.css" rel="stylesheet">
+
+  </head>
+  <body>
+  <!-- Start Page Loading -->
+  <div class="loading"><img src="img/loading.gif" alt="loading-img"></div>
+  <!-- End Page Loading -->
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+  <!-- START TOP -->
+  <div id="top" class="clearfix">
+
+    <!-- Start App Logo -->
+    <div class="applogo">
+      <a href="index.html" class="logo">数字档案卡管理系统</a>
+    </div>
+    <!-- End App Logo -->
+
+    <!-- Start Sidebar Show Hide Button -->
+    <a href="#" class="sidebar-open-button"><i class="fa fa-bars"></i></a>
+    <a href="#" class="sidebar-open-button-mobile"><i class="fa fa-bars"></i></a>
+    <!-- End Sidebar Show Hide Button -->
+
+    <!-- Start Searchbox -->
+<!--     <form class="searchform">
+      <input type="text" class="searchbox" id="searchbox" placeholder="Search">
+      <span class="searchbutton"><i class="fa fa-search"></i></span>
+    </form> -->
+    <!-- End Searchbox -->
+
+    <!-- Start Top Menu -->
+    <ul class="topmenu">
+    <!--   <li><a href="#">Files</a></li>
+      <li><a href="#">Authors</a></li>
+      <li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">My Files <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Pictures</a></li>
+          <li><a href="#">Blog Posts</a></li>
+        </ul>
+      </li> -->
+    </ul>
+    <!-- End Top Menu -->
+
+    <!-- Start Sidepanel Show-Hide Button -->
+    <!-- <a href="#sidepanel" class="sidepanel-open-button"><i class="fa fa-outdent"></i></a> -->
+    <!-- End Sidepanel Show-Hide Button -->
+
+    <!-- Start Top Right -->
+    <ul class="top-right">
+
+    <!-- <li class="dropdown link">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle hdbutton">Create New <span class="caret"></span></a>
+        <ul class="dropdown-menu dropdown-menu-list">
+          <li><a href="#"><i class="fa falist fa-paper-plane-o"></i>Product or Item</a></li>
+          <li><a href="#"><i class="fa falist fa-font"></i>Blog Post</a></li>
+          <li><a href="#"><i class="fa falist fa-file-image-o"></i>Image Gallery</a></li>
+          <li><a href="#"><i class="fa falist fa-file-video-o"></i>Video Gallery</a></li>
+        </ul>
+    </li> -->
+
+    <li class="link">
+      <a href="#" class="notifications">6</a>
+    </li>
+
+    <li class="dropdown link">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle profilebox"><img src="img/myprofile.png" alt="img"><b>市监工作人员</b><span class="caret"></span></a>
+        <ul class="dropdown-menu dropdown-menu-list dropdown-menu-right">
+          <li role="presentation" class="dropdown-header">Profile</li>
+          <li><a href="#"><i class="fa falist fa-inbox"></i>Inbox<span class="badge label-danger">4</span></a></li>
+          <li><a href="#"><i class="fa falist fa-file-o"></i>Files</a></li>
+          <li><a href="#"><i class="fa falist fa-wrench"></i>Settings</a></li>
+          <li class="divider"></li>
+          <li><a href="#"><i class="fa falist fa-lock"></i> Lockscreen</a></li>
+          <li><a href="#"><i class="fa falist fa-power-off"></i> Logout</a></li>
+        </ul>
+    </li>
+
+    </ul>
+    <!-- End Top Right -->
+
+  </div>
+  <!-- END TOP -->
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+
+<!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START SIDEBAR -->
+<div class="sidebar clearfix">
+
+<ul class="sidebar-panel nav">
+  <!-- <li class="sidetitle">MAIN</li> -->
+  <li ><a href="index.html" class=" active"><span class="icon color5"><i class="fa fa-home"></i></span>食品餐饮主体总览</a></li>
+  <li><a href="#"><span class="icon color7"><i class="fa fa-search"></i></span>常用视角<span class="caret"></span></a>
+    <!-- <ul> -->
+      <li><a href="0-waimai.html">浙江外卖在线</a></li>
+      <li><a href="0-lianggezeren.html">食品安全主体责任</a></li>
+      <li><a href="#">校园食堂智治</a></li>
+    <!-- </ul> -->
+  </li>
+  
+  <li><a href="0-customed.html"><span class="icon color6"><i class="fa fa-wechat"></i></span>自定义视角<span class="caret"></span></a>
+      <li><a href="#">我的视角1</a></li>
+  </li>
+
+<!--   <li><a href="#"><span class="icon color7"><i class="fa fa-flask"></i></span>UI Elements<span class="caret"></span></a>
+    <ul>
+      <li><a href="icons.html">Icons</a></li>
+      <li><a href="tabs.html">Tabs</a></li>
+      <li><a href="buttons.html">Buttons</a></li>
+      <li><a href="panels.html">Panels</a></li>
+      <li><a href="notifications.html">Notifications</a></li>
+      <li><a href="modal-boxes.html">Modal Boxes</a></li>
+      <li><a href="progress-bars.html">Progress Bars</a></li>
+      <li><a href="others.html">Others<span class="label label-danger">NEW</span></a></li>
+    </ul>
+  </li>
+  <li><a href="charts.html"><span class="icon color8"><i class="fa fa-bar-chart"></i></span>Charts</a></li>
+  <li><a href="#"><span class="icon color9"><i class="fa fa-th"></i></span>Tables<span class="caret"></span></a>
+    <ul>
+      <li><a href="basic-table.html">Basic Tables</a></li>
+      <li><a href="data-table.html">Data Tables</a></li>
+    </ul>
+  </li>
+  <li><a href="#"><span class="icon color10"><i class="fa fa-check-square-o"></i></span>Forms<span class="caret"></span></a>
+    <ul>
+      <li><a href="form-elements.html">Form Elements</a></li>
+      <li><a href="layouts.html">Form Layouts</a></li>
+      <li><a href="text-editors.html">Text Editors</a></li>
+    </ul>
+  </li> -->
+  <!-- <li><a href="widgets.html"><span class="icon color11"><i class="fa fa-diamond"></i></span>Widgets</a></li> -->
+  <!-- <li><a href="calendar.html"><span class="icon color8"><i class="fa fa-calendar-o"></i></span>Calendar<span class="label label-danger">NEW</span></a></li> -->
+  <!-- <li><a href="typography.html"><span class="icon color12"><i class="fa fa-font"></i></span>Typography</a></li> -->
+<!--   <li><a href="#"><span class="icon color14"><i class="fa fa-paper-plane-o"></i></span>Extra Pages<span class="caret"></span></a>
+    <ul>
+      <li><a href="social-profile.html">Social Profile</a></li>
+      <li><a href="invoice.html">Invoice<span class="label label-danger">NEW</span></a></li>
+      <li><a href="login.html">Login Page</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="forgot-password.html">Forgot Password</a></li>
+      <li><a href="lockscreen.html">Lockscreen</a></li>
+      <li><a href="blank.html">Blank Page</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="404.html">404 Page</a></li>
+      <li><a href="500.html">500 Page</a></li>
+    </ul>
+  </li> -->
+</ul>
+
+<ul class="sidebar-panel nav">
+  <li><a href="#"><span class="icon color7"><i class="fa fa-pencil-square-o"></i></span>我的任务<span class="label label-default">3</span><span class="caret"></span></a>
+    <!-- <ul> -->
+      <li><a href="#">餐饮单位等级标注</a></li>
+      <li><a href="#">食品生产企业信息补齐</a></li>
+      <li><a href="#">集中用餐单位信息摸底</a></li>
+    <!-- </ul> -->
+  </li>
+<!--   <li class="sidetitle">MORE</li>
+  <li><a href="grid.html"><span class="icon color15"><i class="fa fa-columns"></i></span>Grid System</a></li>
+  <li><a href="maps.html"><span class="icon color7"><i class="fa fa-map-marker"></i></span>Maps</a></li>
+  <li><a href="customizable.html"><span class="icon color10"><i class="fa fa-lightbulb-o"></i></span>Customizable</a></li>
+  <li><a href="helper-classes.html"><span class="icon color8"><i class="fa fa-code"></i></span>Helper Classes</a></li>
+  <li><a href="changelogs.html"><span class="icon color12"><i class="fa fa-file-text-o"></i></span>Changelogs</a></li> -->
+</ul>
+
+<!-- <div class="sidebar-plan">
+  Pro Plan<a href="#" class="link">Upgrade</a>
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+  </div>
+</div>
+<span class="space">42 GB / 100 GB</span>
+</div> -->
+
+</div>
+<!-- END SIDEBAR -->
+<!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START CONTENT -->
+<div class="content">
+
+  <!-- Start Page Header -->
+<!--   <div class="page-header">
+    <h1 class="title">食品餐饮主体总览</h1>
+      <ol class="breadcrumb">
+        <li class="active">This is a quick overview of some features</li>
+    </ol>
+
+    <div class="right">
+      <div class="btn-group" role="group" aria-label="...">
+        <a href="index.html" class="btn btn-light">Dashboard</a>
+        <a href="#" class="btn btn-light"><i class="fa fa-refresh"></i></a>
+        <a href="#" class="btn btn-light"><i class="fa fa-search"></i></a>
+        <a href="#" class="btn btn-light" id="topstats"><i class="fa fa-line-chart"></i></a>
+      </div>
+    </div>
+
+  </div>
+ -->  <!-- End Page Header -->
+
+
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START CONTAINER -->
+<div class="container-widget">
+
+  <!-- Start Top Stats -->
+  <div class="col-md-12">
+  <!-- <ul class="topstats clearfix"> -->
+      <div class="panel panel-transparent padding-l-0 padding-r-0 padding-t-0 padding-b-0">
+            <div class="panel-body">
+                <div role="tabpanel" style="width:100%; ">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-pills" role="tablist">
+                    <li role="presentation" class="active"><a href="#home2" aria-controls="home2" role="tab" data-toggle="tab">按主体领域</a></li>
+                    <li role="presentation"><a href="#profile2" aria-controls="profile2" role="tab" data-toggle="tab">按量化等级</a></li>
+                    <!-- <li role="presentation"><a href="#message2" aria-controls="message2" role="tab" data-toggle="tab">按标签</a></li> -->
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content" style="height: 260px">
+                    <div role="tabpanel" class="tab-pane active" id="home2">
+                      <div class="contains"  style="width: 65%;float: left; margin-right: 40px;">
+                        <div class="wareSort clearfix" >
+                          <ul id="sort1"></ul>
+                          <ul id="sort2" style="display: none;"></ul>
+                          <ul id="sort3" style="display: none;"></ul>
+                        </div>
+                        <div class="selectedSort "><b>当前选择：</b><i id="selectedSort"></i></div>
+                        <div class="wareSortBtn">
+                          <!-- <input id="releaseBtn" type="button" value="查询" style="padding-top: 0;"/> -->
+                        </div>
+                      </div>
+                      <div style="width: 30%;float: left;">
+                          <canvas id="doughnutChart"></canvas>
+                      </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="profile2">
+                      <div class="contains">
+                        <div class="wareSort clearfix">
+                          <ul id="sorty1"></ul>
+                          <ul id="sorty2" style="display: none;"></ul>
+                          <ul id="sorty3" style="display: none;"></ul>
+                        </div>
+                        <div class="selectedSort "><b>当前选择：</b><i id="selectedSort"></i></div>
+                        <div class="wareSortBtn">
+                          <!-- <input id="releaseBtn" type="button" value="查询" style="padding-top: 0;"/> -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- <div role="tabpanel" class="tab-pane" id="message2">
+                      <p>Ut in leo ut libero sodales feugiat</p>
+                    </div> -->
+                  </div>
+                </div>
+                <!-- <div style="float: left;width:30%; ">
+                  <canvas id="doughnutChart"></canvas>
+                </div> -->
+            </div>
+      </div>
+  <!-- </ul> -->
+  </div>
+  <!-- End Top Stats -->
+
+  <div class="col-md-12">
+    <div class="panel panel-transparent padding-l-0 padding-r-0 padding-t-0 padding-b-0">
+      <div class="panel-body" style="border-bottom: 1px solid rgba(0, 0, 0, 0.14); margin-bottom: 2px;">
+
+          <div class="pinput-group">
+            <div class="pinput-label"><label>商户名称：</label></div>
+            <div class="pinput-input"><input type="text" ></div>
+          </div>
+          <div class="pinput-group">
+            <div class="pinput-label"><label >统一社会信用代码：</label></div>
+            <div class="pinput-input"><input type="text"></div>
+          </div>
+          <div class="pinput-group">
+            <div class="pinput-label"><label >许可证号：</label></div>
+            <div class="pinput-input"><input type="text"></div>
+          </div>
+          <div class="pinput-group">
+            <a href="#" class="btn btn-default" style="margin-left: 120px;">查询</a>
+          </div>
+          <div class="pinput-group"  style="width:1150px;">
+            <div class="pinput-label"  style="width:11.5%;">
+              <label>标签选择：</label>
+            </div>
+            <div class="pinput-input" style="width:88.5%;">
+              <select id="optgroup_clickable" class="form-control form-control-chosen-optgroup" title="clickable_optgroup" data-placeholder=" " multiple>
+                <optgroup label="固有标签">
+                  <option>个体工商户</option>
+                  <option>外卖商户</option>
+                  <option>放心消费单位</option>
+                </optgroup>
+                <optgroup label="动态标签">
+                  <option>日周月填报不积极</option>
+                  <option>投诉举报较多</option>
+                  <option>阳光厨房已安装</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Panel -->
+  <div class="col-md-12">
+    <div class="panel panel-default">
+      <div class="panel-body table-responsive">
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家1</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家2</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家3</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家4</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家5</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家6</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家7</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家8</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家9</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家10</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家11</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家12</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家13</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家14</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家15</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家16</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家17</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家18</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家19</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+        <div class="card col-md-1">
+          <div class="c_content">
+            <h2 class="c_title">商家20</h2>
+            <p class="c_copy">913301095000000000<br>萧山区临浦镇东藩南路128号</br></p>
+            <a href="archive/index.html" target="_blank"><button class="c_btn">查看详情</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Panel -->
+
+
+  <!-- Start First Row -->
+<!--   <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-body table-responsive">
+            <table id="example0" class="table display ">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                    </tr>
+                </tfoot>
+             
+                <tbody>
+                    <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                    </tr>
+                    <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+  </div>   -->
+  <!-- End First Row -->
+
+
+
+
+
+
+</div>
+<!-- END CONTAINER -->
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+<!-- Start Footer -->
+<div class="row footer" style="border-top: 0px;background: #f5f5f5;">
+  <!-- <div class="col-md-6 text-left"> -->
+  <!-- Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+  </div>
+  <div class="col-md-6 text-right">
+    Design and Developed by 站长素材
+  </div>  -->
+  <!-- <div></div> -->
+</div>
+<!-- End Footer -->
+
+
+</div>
+<!-- End Content -->
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+
+<!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START SIDEPANEL -->
+<div role="tabpanel" class="sidepanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#today" aria-controls="today" role="tab" data-toggle="tab">TODAY</a></li>
+    <li role="presentation"><a href="#tasks" aria-controls="tasks" role="tab" data-toggle="tab">TASKS</a></li>
+    <li role="presentation"><a href="#chat" aria-controls="chat" role="tab" data-toggle="tab">CHAT</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+
+    <!-- Start Today -->
+    <div role="tabpanel" class="tab-pane active" id="today">
+
+      <div class="sidepanel-m-title">
+        Today
+        <span class="left-icon"><a href="#"><i class="fa fa-refresh"></i></a></span>
+        <span class="right-icon"><a href="#"><i class="fa fa-file-o"></i></a></span>
+      </div>
+
+      <div class="gn-title">NEW</div>
+
+      <ul class="list-w-title">
+        <li>
+          <a href="#">
+            <span class="label label-danger">ORDER</span>
+            <span class="date">9 hours ago</span>
+            <h4>New Jacket 2.0</h4>
+            Etiam auctor porta augue sit amet facilisis. Sed libero nisi, scelerisque.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="label label-success">COMMENT</span>
+            <span class="date">14 hours ago</span>
+            <h4>Bill Jackson</h4>
+            Etiam auctor porta augue sit amet facilisis. Sed libero nisi, scelerisque.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="label label-info">MEETING</span>
+            <span class="date">at 2:30 PM</span>
+            <h4>Developer Team</h4>
+            Etiam auctor porta augue sit amet facilisis. Sed libero nisi, scelerisque.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="label label-warning">EVENT</span>
+            <span class="date">3 days left</span>
+            <h4>Birthday Party</h4>
+            Etiam auctor porta augue sit amet facilisis. Sed libero nisi, scelerisque.
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- End Today -->
+
+    <!-- Start Tasks -->
+    <div role="tabpanel" class="tab-pane" id="tasks">
+
+      <div class="sidepanel-m-title">
+        To-do List
+        <span class="left-icon"><a href="#"><i class="fa fa-pencil"></i></a></span>
+        <span class="right-icon"><a href="#"><i class="fa fa-trash"></i></a></span>
+      </div>
+
+      <div class="gn-title">TODAY</div>
+
+      <ul class="todo-list">
+        <li class="checkbox checkbox-primary">
+          <input id="checkboxside1" type="checkbox"><label for="checkboxside1">Add new products</label>
+        </li>
+        
+        <li class="checkbox checkbox-primary">
+          <input id="checkboxside2" type="checkbox"><label for="checkboxside2"><b>May 12, 6:30 pm</b> Meeting with Team</label>
+        </li>
+        
+        <li class="checkbox checkbox-warning">
+          <input id="checkboxside3" type="checkbox"><label for="checkboxside3">Design Facebook page</label>
+        </li>
+        
+        <li class="checkbox checkbox-info">
+          <input id="checkboxside4" type="checkbox"><label for="checkboxside4">Send Invoice to customers</label>
+        </li>
+        
+        <li class="checkbox checkbox-danger">
+          <input id="checkboxside5" type="checkbox"><label for="checkboxside5">Meeting with developer team</label>
+        </li>
+      </ul>
+
+      <div class="gn-title">TOMORROW</div>
+      <ul class="todo-list">
+        <li class="checkbox checkbox-warning">
+          <input id="checkboxside6" type="checkbox"><label for="checkboxside6">Redesign our company blog</label>
+        </li>
+        
+        <li class="checkbox checkbox-success">
+          <input id="checkboxside7" type="checkbox"><label for="checkboxside7">Finish client work</label>
+        </li>
+        
+        <li class="checkbox checkbox-info">
+          <input id="checkboxside8" type="checkbox"><label for="checkboxside8">Call Johnny from Developer Team</label>
+        </li>
+
+      </ul>
+    </div>    
+    <!-- End Tasks -->
+
+    <!-- Start Chat -->
+    <div role="tabpanel" class="tab-pane" id="chat">
+
+      <div class="sidepanel-m-title">
+        Friend List
+        <span class="left-icon"><a href="#"><i class="fa fa-pencil"></i></a></span>
+        <span class="right-icon"><a href="#"><i class="fa fa-trash"></i></a></span>
+      </div>
+
+      <div class="gn-title">ONLINE MEMBERS (3)</div>
+      <ul class="group">
+        <li class="member"><a href="#"><img src="img/profileimg.png" alt="img"><b>Allice Mingham</b>Los Angeles</a><span class="status online"></span></li>
+        <li class="member"><a href="#"><img src="img/profileimg2.png" alt="img"><b>James Throwing</b>Las Vegas</a><span class="status busy"></span></li>
+        <li class="member"><a href="#"><img src="img/profileimg3.png" alt="img"><b>Fred Stonefield</b>New York</a><span class="status away"></span></li>
+        <li class="member"><a href="#"><img src="img/profileimg4.png" alt="img"><b>Chris M. Johnson</b>California</a><span class="status online"></span></li>
+      </ul>
+
+      <div class="gn-title">OFFLINE MEMBERS (8)</div>
+     <ul class="group">
+        <li class="member"><a href="#"><img src="img/profileimg5.png" alt="img"><b>Allice Mingham</b>Los Angeles</a><span class="status offline"></span></li>
+        <li class="member"><a href="#"><img src="img/profileimg6.png" alt="img"><b>James Throwing</b>Las Vegas</a><span class="status offline"></span></li>
+      </ul>
+
+      <form class="search">
+        <input type="text" class="form-control" placeholder="Search a Friend...">
+      </form>
+    </div>
+    <!-- End Chat -->
+
+  </div>
+
+</div>
+<!-- END SIDEPANEL -->
+<!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+
+<!-- ================================================
+jQuery Library
+================================================ -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- ================================================
+Bootstrap Core JavaScript File
+================================================ -->
+<script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- ================================================
+Plugin.js - Some Specific JS codes for Plugin Settings
+================================================ -->
+<script type="text/javascript" src="js/plugins.js"></script>
+
+<!-- ================================================
+Bootstrap Select
+================================================ -->
+<script type="text/javascript" src="js/bootstrap-select/bootstrap-select.js"></script>
+
+<!-- ================================================
+Bootstrap Toggle
+================================================ -->
+<script type="text/javascript" src="js/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+
+<!-- ================================================
+Data Tables
+================================================ -->
+<script src="js/datatables/datatables.min.js"></script>
+
+<script src="js/qrm-pinming.js"></script>
+
+<script src="js/jquery.sort.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+    $('#example0').DataTable();
+} );
+</script>
+
+
+
+<script>
+$(document).ready(function() {
+    var table = $('#example').DataTable({
+        "columnDefs": [
+            { "visible": false, "targets": 2 }
+        ],
+        "order": [[ 2, 'asc' ]],
+        "displayLength": 25,
+        "drawCallback": function ( settings ) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+ 
+            api.column(2, {page:'current'} ).data().each( function ( group, i ) {
+                if ( last !== group ) {
+                    $(rows).eq( i ).before(
+                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                    );
+ 
+                    last = group;
+                }
+            } );
+        }
+    } );
+ 
+    // Order by the grouping
+    $('#example tbody').on( 'click', 'tr.group', function () {
+        var currentOrder = table.order()[0];
+        if ( currentOrder[0] === 2 && currentOrder[1] === 'asc' ) {
+            table.order( [ 2, 'desc' ] ).draw();
+        }
+        else {
+            table.order( [ 2, 'asc' ] ).draw();
+        }
+    } );
+} );
+</script>
+
+
+<script type="text/javascript" src="js/chosen.jquery.js"></script>
+<script type="text/javascript">
+  $('.form-control-chosen').chosen({
+    allow_single_deselect: true,
+    width: '100%'
+  });
+  $('.form-control-chosen-required').chosen({
+    allow_single_deselect: false,
+    width: '100%'
+  });
+  $('.form-control-chosen-search-threshold-100').chosen({
+    allow_single_deselect: true,
+    disable_search_threshold: 100,
+    width: '100%'
+  });
+  $('.form-control-chosen-optgroup').chosen({
+    width: '100%'
+  });
+
+  $(function() {
+    $('[title="clickable_optgroup"]').addClass('chosen-container-optgroup-clickable');
+  });
+  $(document).on('click', '[title="clickable_optgroup"] .group-result', function() {
+    var unselected = $(this).nextUntil('.group-result').not('.result-selected');
+    if(unselected.length) {
+    unselected.trigger('mouseup');
+    } else {
+    $(this).nextUntil('.group-result').each(function() {
+      $('a.search-choice-close[data-option-array-index="' + $(this).data('option-array-index') + '"]').trigger('click');
+    });
+    }
+  });
+</script>
+
+
+<!-- pie -->
+<!-- SCRIPTS -->
+  <!-- JQuery -->
+  <!-- <script type="text/javascript" src="pie/js/jquery-3.4.1.min.js"></script> -->
+  <!-- Bootstrap tooltips -->
+  <!-- <script type="text/javascript" src="pie/js/popper.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script type="text/javascript" src="pie/js/bootstrap.min.js"></script> -->
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="pie/js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+
+  <!-- Charts -->
+  <script>
+    //doughnut
+    var ctxD = document.getElementById("doughnutChart").getContext('2d');
+    var myLineChart = new Chart(ctxD, {
+      type: 'doughnut',
+      data: {
+        labels: ["生产主体", "食品销售经营主体", "餐饮服务经营主体", "单位食堂", ],
+        datasets: [{
+          data: [300, 50, 100, 40,],
+          backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+          hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+        }]
+      },
+      options: {
+        responsive: true
+      }
+    });
+
+  </script>
+
+
+</body>
+</html>
